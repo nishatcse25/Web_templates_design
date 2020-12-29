@@ -1,0 +1,59 @@
+body{
+	margin: 10px;
+	padding: 10px;  
+}
+
+
+
+.head{
+	margin-top: 40px;
+	text-align:  center;
+}
+.head h1 {
+	font-size: 23px;
+	margin: 0;
+}
+.head p{
+	margin: 0;
+	color: gray;
+}
+
+
+
+.cen{
+	margin-left: 150px;
+    display: flex;
+    margin-top: 60px;
+    
+}
+
+.leftside,.rightside{
+	flex-basis: 50%;
+	width: 50%;
+}
+
+.rightside img{
+	margin-left: 100px; 
+}
+
+.leftside h1{
+	font-size: 25px;
+	margin-right: 20px;
+}
+.leftside p{
+	font-size: 20px;
+	color: gray;
+	margin-right: 20px;
+}
+.leftside button{
+  color: white;
+  background-color: orange;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+}
+
+.btn:hover{
+background-color: yellow;
+color: black;
+}
